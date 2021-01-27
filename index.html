@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Welcome to BitcoinTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!--상태바-->
+    <div class="status-bar">
+      <div class="statusbar__column">
+        <span>Coin Service</span>
+        <!--Bitcoin icon-->
+        <i class="fab fa-bitcoin"></i>
+      </div>
+      <div class="statusbar__column">
+        <span>18:01</span>
+      </div>
+      <div class="statusbar__column">
+        <span>19%</span>
+        <!--battery icon-->
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <!--Lightning icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to BatcoinTalk</h1>
+      <p class="welcome-header__text">
+        if you have a Batcoin Account. log in with your email or wallet address
+      </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or wallet address"
+      />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find your Batcoin address or Password</a>
+    </form>
+    <!--script 태그는 항상 body 마지막에 !-->
+    <script
+      src="https://kit.fontawesome.com/5c412fbd82.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
