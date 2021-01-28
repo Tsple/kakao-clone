@@ -3,6 +3,9 @@
 @import "status-bar.css";
 @import "login.css";
 @import "navbar.css";
+@import "friends.css";
+@import "screen-header.css";
+@import "user-components.css";
 
 body {
   font-family: "Roboto Condensed", sans-serif;

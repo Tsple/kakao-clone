@@ -10,8 +10,13 @@
 .statusbar__column:first-child span {
   margin-right: 5px;
 }
+.statusbar__column:first-child {
+  display: flex;
+  align-items: center;
+}
 .statusbar__column:nth-child(2) {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 

@@ -8,16 +8,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
-    <title>Friends - BitcoinTalk</title>
+    <title>Friends - KoKoa Talk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!--상태바-->
     <div class="status-bar">
       <div class="statusbar__column">
-        <span>Coin Service</span>
+        <span>No Service</span>
         <!--Bitcoin icon-->
-        <i class="fab fa-bitcoin"></i>
+        <i class="fas fa-wifi"></i>
       </div>
       <div class="statusbar__column">
         <span>18:01</span>
@@ -25,11 +25,102 @@
       <div class="statusbar__column">
         <span>19%</span>
         <!--battery icon-->
-        <i class="fas fa-battery-quarter fa-2x"></i>
+        <i class="fas fa-battery-quarter"></i>
         <!--Lightning icon-->
         <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+    <!--Screen Header (Above the profile)-->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icon">
+        <span><i class="fas fa-search fa fa-lg"></i></span>
+        <span><i class="fas fa-user-plus fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <!--Find Friend's name-->
+    <a class="friends-display-link" href="#">
+      <i class="fas fa-info-circle"></i>
+      Friend's Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <!--picture-->
+        <div class="user-component__column">
+          <img
+            src="images/khj2.png"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">HyunJoong</h4>
+            <h6 class="user-component__subtitle">Hi</h6>
+          </div>
+        </div>
+        <!--text-->
+        <div class="user-component__column"></div>
+      </div>
+
+      <!--recommand friends-->
+      <div class="friends-screen__recommand">
+        <div class="friends-screen__recommand-header">
+          <span>Recommand Friends</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <!--picture-->
+          <div class="user-component__column">
+            <img
+              src="images/recommand.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Meet new friends!
+              </h4>
+            </div>
+          </div>
+          <!--text-->
+          <div class="user-component__column">
+            <span>16</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+      <!--channel-->
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <!--picture-->
+          <div class="user-component__column">
+            <img
+              src="images/ch.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+          <!--text-->
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <!--navbar-->
     <nav class="nav">
       <ul class="nav__list">
@@ -58,6 +149,7 @@
         </li>
       </ul>
     </nav>
+
     <!--script 태그는 항상 body 마지막에 !-->
     <script
       src="https://kit.fontawesome.com/5c412fbd82.js"
