@@ -1,20 +1,18 @@
 @import "reset.css";
 @import "variables.css";
-@import "components/status-bar.css";
+@import "status-bar.css";
 @import "screen/login.css";
-@import "components/navbar.css";
+@import "navbar.css";
 @import "screen/friends.css";
-@import "components/screen-header.css";
-@import "components/user-components.css";
-@import "components/badge.css";
+@import "screen-header.css";
+@import "user-components.css";
+@import "badge.css";
 @import "screen/find.css";
 @import "screen/more.css";
-@import "components/icon-row.css";
-@import "components/alt-screen-header.css";
+@import "icon-row.css";
+@import "screen/alt-screen-header.css";
 @import "screen/settings.css";
 @import "screen/chat.css";
-@import "components/no-mobile.css";
-
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -31,7 +29,7 @@ body {
 .welcome-header__title {
   margin-bottom: 30px;
   font-size: 25px;
-  color: var(--yellow);
+  color: var(--blue);
 }
 
 .welcome-header__text {
