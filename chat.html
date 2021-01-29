@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chat w/yuli - KoKoa Talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="chat-screen">
+    <!--상태바-->
+    <div class="status-bar">
+      <div class="statusbar__column">
+        <span>No Service</span>
+        <!--Bitcoin icon-->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="statusbar__column">
+        <span>18:01</span>
+      </div>
+      <div class="statusbar__column">
+        <span>19%</span>
+        <!--battery icon-->
+        <i class="fas fa-battery-quarter"></i>
+        <!--Lightning icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Yuli</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Friday, January 29, 2021</div>
+
+      <!-- 메세지 하나 two-column은 프사+이름,메세지-->
+      <div class="message-row">
+        <img src="images/yuli.png" />
+        <div class="message-cow__content">
+          <span class="message__author">Yuri</span>
+          <div class="message__info">
+            <span class="message__bubble">Hello!</span>
+            <span class="message__time">08:12</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-cow__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi Yuri~</span>
+            <span class="message__time">08:13</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="images/yuli.png" />
+        <div class="message-cow__content">
+          <span class="message__author">Yuri</span>
+          <div class="message__info">
+            <span class="message__bubble">What are you up to tonight?</span>
+            <span class="message__time">08:15</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="images/yuli.png" />
+        <div class="message-cow__content">
+          <span class="message__author">Yuri</span>
+          <div class="message__info">
+            <span class="message__bubble">I want to eat dinner tonight</span>
+            <span class="message__time">08:16</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--script 태그는 항상 body 마지막에 !-->
+    <script
+      src="https://kit.fontawesome.com/5c412fbd82.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

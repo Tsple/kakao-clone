@@ -1,0 +1,94 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 130vh;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%; /* width:100% 안주면 좌측으로 밀림*/
+  box-sizing: border-box;
+  /*상태바와 채팅 헤더에 background-color을 주는 이유는 스크롤을 했을때 채팅내용이 
+     사라지게 하기 위해서 (+z-index 도 사용해서 제일 앞으로 꺼냈음)*/
+  background-color: #abc1d1;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+#chat-screen .alt-header {
+  top: 10px;
+  z-index: 1;
+}
+
+.main-chat {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex direction이 column일때 수평이된 세로축을 중앙정렬하면 가운데로감 */
+}
+
+.chat__timestamp {
+  color: white;
+  background-color: #92a4b2;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 25px;
+  margin-bottom: 25px; /*timestamp와 첫번째 message 간격*/
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px; /*메세지간의 간격*/
+}
+
+.message-row img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px; /*프사와 이름 간격*/
+}
+
+.message__author {
+  display: block; /*margin-bottom 쓰기위해*/
+  margin-bottom: 5px;
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px; /*시간과 간격*/
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__author,
+.message__time {
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}

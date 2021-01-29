@@ -12,7 +12,7 @@
 @import "icon-row.css";
 @import "screen/alt-screen-header.css";
 @import "screen/settings.css";
-
+@import "screen/chat.css";
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
