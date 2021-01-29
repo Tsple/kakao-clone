@@ -35,3 +35,27 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+
+@keyframes hideSplashSceen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashSceen 2s ease-in-out forwards;
+}
+/*forwards : 실행 된 애니메이션의 마지막 keyframe에 의해 설정된 계산 된 값을 유지 = opacity:0 */
