@@ -14,7 +14,7 @@
 
 ## 1. Screen Size Warning
 
-If your screen width is over 550px, the following page appears.
+If your screen width is over 645px, the following page appears.
 
 <img src="img/warning-size.png" width=600px>
 
@@ -31,7 +31,6 @@ Add `header wrapper` to all pages. So although you scroll the page, the header i
 ## 4. Chats Page
 
 <img src="img/chats-page.png" width=600px>
-
 
 ## 5. Find Page
 
