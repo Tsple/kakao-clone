@@ -1,0 +1,89 @@
+.more-screen .icon-row {
+  margin-top: 35px;
+  margin: 10px 25px;
+  padding: 20px 0px;
+}
+.more-screen .icon-row__icons i {
+  font-size: 40px;
+}
+.weather {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 10px;
+}
+.weather__title {
+  margin-bottom: 10px;
+}
+.today {
+  margin-left: 10px;
+  margin-right: 30px;
+  font-size: 30px;
+}
+.weather__info {
+  display: flex;
+  justify-content: space-between;
+}
+.weather__icon {
+  display: flex;
+}
+
+.weather__icon-text {
+  vertical-align: bottom;
+}
+
+.weather__icons {
+  display: flex;
+}
+
+/*현재날씨*/
+.weather__icon-image i {
+  font-size: 60px;
+}
+.weather__icon {
+  padding-right: 30px;
+}
+
+.kokoa-pay {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 20px 0;
+  border-radius: 10px;
+  margin-top: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.assets {
+  background-color: white;
+}
+.kokoa-pay__column:first-child {
+  margin-left: 20px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.kokoa-pay__column .assets {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.kokoa-pay__column:last-child {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 9px;
+}
+
+.user-component__column__message i {
+  margin-right: 5px;
+}
+
+.kokoa-pay__column span {
+  font-weight: 600;
+}
