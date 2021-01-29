@@ -6,51 +6,15 @@
 .more-screen .icon-row__icons i {
   font-size: 40px;
 }
-.weather {
-  margin-top: 20px;
-  border-top: var(--main-border);
-  padding-top: 10px;
-}
-.weather__title {
-  margin-bottom: 10px;
-}
-.today {
-  margin-left: 10px;
-  margin-right: 30px;
-  font-size: 30px;
-}
-.weather__info {
-  display: flex;
-  justify-content: space-between;
-}
-.weather__icon {
-  display: flex;
-}
-
-.weather__icon-text {
-  vertical-align: bottom;
-}
-
-.weather__icons {
-  display: flex;
-}
-
-/*현재날씨*/
-.weather__icon-image i {
-  font-size: 60px;
-}
-.weather__icon {
-  padding-right: 30px;
-}
 
 .kokoa-pay {
   background-color: rgba(0, 0, 0, 0.1);
   display: flex;
-  padding: 20px 0;
+  padding: 15px 0;
   border-radius: 10px;
   margin-top: 20px;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .assets {
@@ -86,4 +50,41 @@
 
 .kokoa-pay__column span {
   font-weight: 600;
+}
+
+.weather {
+  margin-top: 8px;
+  border-top: var(--main-border);
+  padding-top: 8px;
+}
+.weather__title {
+  margin-bottom: 8px;
+}
+.today {
+  margin-left: 10px;
+  margin-right: 30px;
+  font-size: 30px;
+}
+.weather__info {
+  display: flex;
+  justify-content: space-between;
+}
+.weather__icon {
+  display: flex;
+}
+
+.weather__icon-text {
+  vertical-align: bottom;
+}
+
+.weather__icons {
+  display: flex;
+}
+
+/*현재날씨*/
+.weather__icon-image i {
+  font-size: 60px;
+}
+.weather__icon {
+  padding-right: 30px;
 }
