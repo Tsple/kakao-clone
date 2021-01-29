@@ -46,6 +46,7 @@
   font-size: 20px;
 }
 
+.friends-screen__friend-header span,
 .friends-screen__channel-header span {
   color: rgba(0, 0, 0, 0.5);
 }

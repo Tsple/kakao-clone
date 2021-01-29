@@ -21,11 +21,11 @@
 }
 
 #login-form input:focus {
-  border-color: var(--blue);
+  border-color: var(--yellow);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--blue);
+  border-color: var(--yellow);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 10px;

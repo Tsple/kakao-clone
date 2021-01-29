@@ -13,17 +13,25 @@
 }
 
 .friends-screen__recommand {
-  margin-top: 25px;
+  margin-top: 15px;
   border-top: var(--main-border);
   padding-top: 10px;
 }
 
+.friend2,
+.friend3 {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.friends-screen__friend-header,
 .friends-screen__channel {
   margin-top: 10px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 10px;
 }
 
+.friends-screen__friend-header,
 .friends-screen__recommand-header,
 .friends-screen__channel-header {
   margin-bottom: 10px;
@@ -34,6 +42,7 @@
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
+  height: 80vh;
 }
 
 @keyframes hideSplashSceen {
