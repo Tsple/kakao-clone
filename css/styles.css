@@ -10,6 +10,8 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "icon-row.css";
+@import "screen/alt-screen-header.css";
+@import "screen/settings.css";
 
 body {
   font-family: "Roboto Condensed", sans-serif;
